@@ -1,31 +1,54 @@
-# Static Web App
+---
+page_type: sample
+languages:
+  - javascript
+  - typescript
+products:
+  - azure functions
+description: 'Apps that can be used with as a starting point for some MS Learn Modules.'
+urlFragment: 'https://github.com/MicrosoftDocs/mslearn-staticwebapp'
+---
 
-This project was created to help represent a fundamental app written with React. The shopping theme is used throughout the app.
+# Official Microsoft Sample
 
-## Getting Started
+Follow the hands-on tutorial to [publish an Angular, React, Svelte, or Vue JavaScript app and API with Azure Static Web Apps](https://docs.microsoft.com/learn/modules/publish-app-service-static-web-app-api/?WT.mc_id=mslearn_staticwebapp-github-jopapa).
 
-1. Create a repository from this template repository <https://github.com/MicrosoftDocs/mslearn-staticwebapp/generate>
+## Static Web App
 
-1. Enter the name of your new repository as _my-static-web-app_
+This repository contains apps that can be used with as a starting point for some MS Learn Modules. Because everyone has their own preference for their JavaScript frameworks/library, you can choose which one you prefer.
 
-1. Clone your new repository
+The shopping theme is used throughout the app.
 
-   ```bash
-   git clone https://github.com/your-github-organization/my-static-web-app
-   cd my-static-web-app/react-app
-   ```
+## Pre-Reqs
 
-1. Install the npm packages
+- Familiarity with one of Angular, React, Svelte, or Vue
+- [Node.js LTS and Git](https://nodejs.org/)
+- [GitHub](https://github.com) account
+- [Visual Studio Code](https://code.visualstudio.com)
 
-   ```bash
-   npm install
-   ```
+## Contents
 
-1. Run the app
+The apps written in the following JavaScript frameworks/libraries:
 
-   ```bash
-   npm start
-   ```
+| folder          | Description                                                                                                   |
+| --------------- | ------------------------------------------------------------------------------------------------------------- |
+| **angular-app** | [Sample Angular app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/tree/main/angular-app)             |
+| **api-starter** | [Sample Azure Functions app](https://github.com/MicrosoftDocs/mslearn-staticwebapp-api/tree/main/api-starter) |
+| **react-app**   | [Sample React app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/tree/main/react-app)                 |
+| **svelte-app**  | [Sample Svelte app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/tree/main/svelte-app)               |
+| **vue-app**     | [Sample Vue app](https://github.com/MicrosoftDocs/mslearn-staticwebapp/tree/main/vue-app)                     |
+
+## Prerequisites
+
+- A GitHub account
+- [Node.js and Git](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=mslearn_staticwebapp-github-jopapa) installed
+- The [Azure Functions extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions?WT.mc_id=mslearn_staticwebapp-github-jopapa) installed
+- The [Azure Functions Core Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=mslearn_staticwebapp-github-jopapa) installed
+
+## Problems or Suggestions
+
+[Open an issue here](https://github.com/MicrosoftDocs/mslearn-staticwebapp/issues)
 
 ## Resources
 
@@ -57,3 +80,17 @@ This project was created to help represent a fundamental app written with React.
 - [Debugging Angular in VS Code](https://code.visualstudio.com/docs/nodejs/angular-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
 - [Debugging React in VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
 - [Debugging Vue in VS Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+
+## Contributing
+
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
